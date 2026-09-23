@@ -1,0 +1,1001 @@
+{
+  "package": "Macks Studios Logo Package",
+  "version": "1.0.0",
+  "source_sha256": "1504210c3e338f48ae0ec3bc0a0c829abc85034a2d4ccecdef63cbbfc32f511b",
+  "generated_files": 120,
+  "warnings": [],
+  "assets": [
+    {
+      "path": "backgrounds/macks-studios-black-on-light-1024x1024.jpg",
+      "bytes": 21003,
+      "sha256": "6ba369eaf4e1e632da8fc92ded6784340f2006a5fa883de11619f1dc81329cb4",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "JPEG"
+    },
+    {
+      "path": "backgrounds/macks-studios-black-on-light-1024x1024.png",
+      "bytes": 10752,
+      "sha256": "e4826e9cd8c428a4ee615bf76d255ca14e56fedd9dfa49e74e0a7e436c9bb4be",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "backgrounds/macks-studios-black-on-light-2048x2048.jpg",
+      "bytes": 52259,
+      "sha256": "1dd16b5f93a79284def65b27b2300dbfd5969f9f32c39ecd931151353dfc871f",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "format": "JPEG"
+    },
+    {
+      "path": "backgrounds/macks-studios-black-on-light-2048x2048.png",
+      "bytes": 28850,
+      "sha256": "3b6ec37ce983e9e59823c9eaa5a1674eccc03c5e0785d4f9478e57bfbf9383a0",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "backgrounds/macks-studios-black-on-light-512x512.jpg",
+      "bytes": 9677,
+      "sha256": "0f24b8ade21c4b78d29d3e3f023474c975588b92a4c918a7effe34a599f451a0",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "format": "JPEG"
+    },
+    {
+      "path": "backgrounds/macks-studios-black-on-light-512x512.png",
+      "bytes": 5228,
+      "sha256": "ba74a6315abfc5beb1e48533e3ab9fc43ee4a556179b9cf7cf8f82187ce7629c",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "backgrounds/macks-studios-color-on-dark-1024x1024.jpg",
+      "bytes": 28035,
+      "sha256": "2f32b5ecef92a01daf5850893820a3b9c4709514d2abdba0778519269fea9900",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "JPEG"
+    },
+    {
+      "path": "backgrounds/macks-studios-color-on-dark-1024x1024.png",
+      "bytes": 86413,
+      "sha256": "9e4453431a875128c491f4f266fa9be1fc282608f2684fca3073b525a2c6da83",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "backgrounds/macks-studios-color-on-dark-2048x2048.jpg",
+      "bytes": 74825,
+      "sha256": "fea000a590d903573f6cfae13fb1336cc68c1351039144fa3827c7ff1a37587a",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "format": "JPEG"
+    },
+    {
+      "path": "backgrounds/macks-studios-color-on-dark-2048x2048.png",
+      "bytes": 184233,
+      "sha256": "71f9759e342fb0718bf36100ca9ec2abbe93b08f38c1daebfe83fd414a00c371",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "backgrounds/macks-studios-color-on-dark-512x512.jpg",
+      "bytes": 11411,
+      "sha256": "ccc29623dac40f01cc7045489715d32b1638298552335ed707e7502b67bf0af6",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "format": "JPEG"
+    },
+    {
+      "path": "backgrounds/macks-studios-color-on-dark-512x512.png",
+      "bytes": 25185,
+      "sha256": "b03912823814998e2c3f2f9e1f73cc372e0bd51d5df822dec6c6874de47eb323",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "backgrounds/macks-studios-color-on-light-1024x1024.jpg",
+      "bytes": 27778,
+      "sha256": "6700c40fef96e46535b609ce7c082d6f644df88f764b089b52ea8eb0b63b095b",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "JPEG"
+    },
+    {
+      "path": "backgrounds/macks-studios-color-on-light-1024x1024.png",
+      "bytes": 85608,
+      "sha256": "014e734a40cf4537f3e3a34a1ad78f239a609357c45cb007b65f9bfc9defc776",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "backgrounds/macks-studios-color-on-light-2048x2048.jpg",
+      "bytes": 73711,
+      "sha256": "9d179b3c9a8743760771adcbcf5195357693cc9c589545bbceb5c90d52aef81f",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "format": "JPEG"
+    },
+    {
+      "path": "backgrounds/macks-studios-color-on-light-2048x2048.png",
+      "bytes": 182404,
+      "sha256": "64f73f5270f2c19292f9b44729c2df175ed0fd01635badc9e3c7ef396f67613a",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "backgrounds/macks-studios-color-on-light-512x512.jpg",
+      "bytes": 11073,
+      "sha256": "2d32df3935e913913a856b7af884db9c1419428c1680448577a709c9ebfb920d",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "format": "JPEG"
+    },
+    {
+      "path": "backgrounds/macks-studios-color-on-light-512x512.png",
+      "bytes": 25102,
+      "sha256": "e2ef63f8401c76af931d8c0c69d2d7708785bec5cfd2786c48a0ba2eb424ab02",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "backgrounds/macks-studios-white-on-dark-1024x1024.jpg",
+      "bytes": 21609,
+      "sha256": "933628f7c0a2aea90956a8bc90887534d10583a6571c24da49503c83c18daab4",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "JPEG"
+    },
+    {
+      "path": "backgrounds/macks-studios-white-on-dark-1024x1024.png",
+      "bytes": 10780,
+      "sha256": "b6a88039d6c8aacbd9065cdb0b54d40fd8ab8016668c815e9de9b2f242861d79",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "backgrounds/macks-studios-white-on-dark-2048x2048.jpg",
+      "bytes": 53329,
+      "sha256": "b859a2e409c34c1ea4f316b06a07e3316c18ca25c3a06a7ecd3fe3295292a748",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "format": "JPEG"
+    },
+    {
+      "path": "backgrounds/macks-studios-white-on-dark-2048x2048.png",
+      "bytes": 29110,
+      "sha256": "2e788f1db32614164cebce95a135d43f1c535d93fe4d0fdb6ec65b5d30e66276",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "backgrounds/macks-studios-white-on-dark-512x512.jpg",
+      "bytes": 9915,
+      "sha256": "41c435dbec5cb29408422518d36e3f066b2d101e6c1158b12931049fef268fdc",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "format": "JPEG"
+    },
+    {
+      "path": "backgrounds/macks-studios-white-on-dark-512x512.png",
+      "bytes": 5269,
+      "sha256": "91868782db0c39f61365a832b1af436e9734162e90307dc26ada1d98393f19d0",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-black-1024x1024.png",
+      "bytes": 8246,
+      "sha256": "fec0a5f8e398b10c3112809e0498ff9d35b079e0cab8b409262e4c5ebe29982f",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-black-128x128.png",
+      "bytes": 919,
+      "sha256": "ade90b683ab99cf17c10e25002f32eabe6aa793e43142e578d7d5c99318719c8",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-black-16x16.png",
+      "bytes": 210,
+      "sha256": "5d21c17d752a12b267879dd0b445021104526166babc6141b9aa63b91cd1dcf2",
+      "width": 16,
+      "height": 16,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-black-2048x2048.png",
+      "bytes": 27235,
+      "sha256": "ce991e134b653307697197d1984d20480162e8e4c571ab6435fc815dd9976690",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-black-256x256.png",
+      "bytes": 1627,
+      "sha256": "cbdf1bb293765fad5d95be9469d36b43b1420658b3311fe29b2b4e8c72b6a0ab",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-black-32x32.png",
+      "bytes": 338,
+      "sha256": "dde611fc55244c638b1aa5412cee681fd9cae6565a8b4ce7fcce200f9322bfbd",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-black-48x48.png",
+      "bytes": 446,
+      "sha256": "412d110798b564c8614e3231c05744cf845aae9dd6aa740caf24cc9e976dd806",
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-black-512x512.png",
+      "bytes": 3270,
+      "sha256": "1f4365b8bd356889f5746f0b94d43e01e926b120069904a948a1fcd3c265d873",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-black-64x64.png",
+      "bytes": 549,
+      "sha256": "0deed84ef40871723107c13f90ce5a26671db4a9a8ea0a30967e9270ff6ca0bf",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-color-1024x1024.png",
+      "bytes": 85955,
+      "sha256": "3ca8d420fb5f24b8c5262bb85a870d4d90adb16a895561bd6c8465b08da3ef42",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-color-128x128.png",
+      "bytes": 3616,
+      "sha256": "e353469cbfbc81924757b363346702fe6b9edf6dd1bace23651ecfb3dd9ba2eb",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-color-16x16.png",
+      "bytes": 364,
+      "sha256": "5f592fb2f2fc80209c6daf4e2cd83373a0871f6c280fda14be5b50fed9cd6a80",
+      "width": 16,
+      "height": 16,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-color-2048x2048.png",
+      "bytes": 211669,
+      "sha256": "cc89081562a70e1a7464721a089d2ee1ef5b47bebea630ce26cbfc7a957f7aa2",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-color-256x256.png",
+      "bytes": 9696,
+      "sha256": "69470a5ca07ac5214d50389b3f2b7c359d99d8249c7c779164bc0a12f9cfd98b",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-color-32x32.png",
+      "bytes": 780,
+      "sha256": "6f3b249edbeaeab36f44fbc98b61b42f0f538f2f0a328e7162b304f60db8dd99",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-color-48x48.png",
+      "bytes": 1241,
+      "sha256": "f4d30169fd0bf15ee95a4d8adae9c89ecf2309e103f565885d3d7574b72fdce5",
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-color-512x512.png",
+      "bytes": 26255,
+      "sha256": "af703ac9bcee1edbcf341331d1ca3f70daf0661c6c8ab95453681aef299d13c0",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-color-64x64.png",
+      "bytes": 1711,
+      "sha256": "dae14501af3d320ff8c98c3e38e2d4f1829989b76cf78781d71a24c0bf016bda",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-sage-1024x1024.png",
+      "bytes": 10239,
+      "sha256": "e37113f59ff3cd5305fcf178071868df69f39d238762938f2a8cace98bcef563",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-sage-128x128.png",
+      "bytes": 1295,
+      "sha256": "4ed801b5dc1ca794a4e2b7589c9ceba46d5bb28305fd0dbd10769f79caa7bf48",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-sage-16x16.png",
+      "bytes": 240,
+      "sha256": "bffc9259f7f92a28386e93eccb49945bae3d88c64d6f7ef8dc242e329d526235",
+      "width": 16,
+      "height": 16,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-sage-2048x2048.png",
+      "bytes": 30956,
+      "sha256": "a03cffe7a35179d4a8384ace968869c7c31a5b879a10d188b2b531cc7ae66a5d",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-sage-256x256.png",
+      "bytes": 2301,
+      "sha256": "bbc2915eda8da160c612bf9a8445404a962ab73ebb433aa0fe0fb31eea88a01e",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-sage-32x32.png",
+      "bytes": 465,
+      "sha256": "c62c01f41053a7ab544fb08f19b917443544fb0b6d9664becd0156b087d52ad8",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-sage-48x48.png",
+      "bytes": 592,
+      "sha256": "bff51abacc94ca62ab4f70e8b602a1d8e270a545ccd1ea45426e3e8f55635356",
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-sage-512x512.png",
+      "bytes": 4412,
+      "sha256": "2651023a11eb2127cd76c8724470d9a6c6208572c22a99252796cd02d983a2c9",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-sage-64x64.png",
+      "bytes": 746,
+      "sha256": "d8671e720617bdd0885b5912a94e3568c3ae2f7cbbd8bb483c914bffb4b32ec2",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-white-1024x1024.png",
+      "bytes": 8731,
+      "sha256": "f05210b924d1275eba46e6fe84b9e3ac59abe01a5c98c20ce9395ee08b8d927f",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-white-128x128.png",
+      "bytes": 994,
+      "sha256": "d5e26370c0bb0ead37ac7e7167cb97c497a77cdf3939dbaf1e9148fdbbff6adc",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-white-16x16.png",
+      "bytes": 224,
+      "sha256": "b5a26c09c4513f1d3537d5b2fbd35ac750a0e599ca3fa6e55e26e14ee87b6e89",
+      "width": 16,
+      "height": 16,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-white-2048x2048.png",
+      "bytes": 28274,
+      "sha256": "c74ba33bc46c68bec138adbb54430c4d510d9d0cc3912cdb0ec5d883158c49e0",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-white-256x256.png",
+      "bytes": 1785,
+      "sha256": "7a3abd5cc4a2bec899d1af06f2bf881892ca431a604ba03627caa9128d3c334a",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-white-32x32.png",
+      "bytes": 358,
+      "sha256": "7e19281a4c820821afbdf0ed2dd65d48eaed2e9eea582940df8a29f9bea3a6cc",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-white-48x48.png",
+      "bytes": 475,
+      "sha256": "e502d1f2c6e46508987071b135e405f462abbe1cecf0ceed96b2db62a7b21a48",
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-white-512x512.png",
+      "bytes": 3564,
+      "sha256": "bf232bf8e031404cc2f7b5f7fb856f9f418978dde5af2c31bb7a90375761cdd8",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/icon/macks-studios-icon-white-64x64.png",
+      "bytes": 593,
+      "sha256": "6d2d8353545c930071d5587a4f385c3ca0e45f5843371856b4c0fb60d023923a",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-black-1024x768.png",
+      "bytes": 8527,
+      "sha256": "245b3ecf63d97b784a4ce389a79bf180bdeef9ced3e872de0d65be55401512fd",
+      "width": 1024,
+      "height": 768,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-black-1600x1200.png",
+      "bytes": 15252,
+      "sha256": "20ba2ab913822ef84a89b62a42ca512afbee2a55fca9ebfa1776a29252cf2795",
+      "width": 1600,
+      "height": 1200,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-black-256x192.png",
+      "bytes": 2104,
+      "sha256": "70349701e290a022e0d0529293aa47b67d9f4fba376f9e8495a6e89d02168221",
+      "width": 256,
+      "height": 192,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-black-512x384.png",
+      "bytes": 3712,
+      "sha256": "a2146123582fe9b216317e262f49d9760897a923b6f157ace10ea55ba4052128",
+      "width": 512,
+      "height": 384,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-color-1024x768.png",
+      "bytes": 109461,
+      "sha256": "ba0e837c9ffd49b5271d410b083e5e80c8d600d3da8ed35908aae36609ee4039",
+      "width": 1024,
+      "height": 768,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-color-1600x1200.png",
+      "bytes": 138779,
+      "sha256": "6b90a7771f5647438984db702e65cb5851b23a29ae40dd52dbc7c25a970c0b68",
+      "width": 1600,
+      "height": 1200,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-color-256x192.png",
+      "bytes": 15562,
+      "sha256": "1509938cbbeccb318745411ad0a982a1609c34fb0e1aa1df25f895cd9da19a91",
+      "width": 256,
+      "height": 192,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-color-512x384.png",
+      "bytes": 37856,
+      "sha256": "c4c6ba998f20c6398bfe4f37e1027e0ca9a5bd906f8cad7bb4a5c66c50ae8768",
+      "width": 512,
+      "height": 384,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-sage-1024x768.png",
+      "bytes": 12042,
+      "sha256": "fd3a6ca5342ec76f1c7963508616d4a8afd8a1548db3d18aa30edf3c1f01f05f",
+      "width": 1024,
+      "height": 768,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-sage-1600x1200.png",
+      "bytes": 16166,
+      "sha256": "a3740c985f568cf5f89cb3e271a30ac29588890b7b2161d4717e3804b1ec9639",
+      "width": 1600,
+      "height": 1200,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-sage-256x192.png",
+      "bytes": 3235,
+      "sha256": "3b31206410dc3a2c884e02781780346ef459195da2f96dd6a9a155e14edd0394",
+      "width": 256,
+      "height": 192,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-sage-512x384.png",
+      "bytes": 5572,
+      "sha256": "b0025bbfb6f6ab1bf6d8c5fded2569ffe6ad81ff6fa803fff02c2eaa91e12b93",
+      "width": 512,
+      "height": 384,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-white-1024x768.png",
+      "bytes": 10114,
+      "sha256": "c65c3dec65be2fc389a23623fa0b615adf1ef61b0b014ff03aa8da3c72d97b83",
+      "width": 1024,
+      "height": 768,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-white-1600x1200.png",
+      "bytes": 15960,
+      "sha256": "31698ab1749ccf181cbd7c34978929a46a1e31c617baeb52d60e70122dc6227d",
+      "width": 1600,
+      "height": 1200,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-white-256x192.png",
+      "bytes": 2535,
+      "sha256": "485d2fa0ee847fd53a7b055fb4c4d107789955f029c21fe934ee57ee1609d320",
+      "width": 256,
+      "height": 192,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "png/transparent/mark/macks-studios-mark-white-512x384.png",
+      "bytes": 4525,
+      "sha256": "5c106a6936baffdd29b82b055368bdee277b60053cf8386fece6952e302ffc02",
+      "width": 512,
+      "height": 384,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "previews/circle-crop-preview.png",
+      "bytes": 52183,
+      "sha256": "a10bec520e5c99bf3e2706bf6c97d5c4d5998a4d6d20e6b5cf4f1cc49bb0e978",
+      "width": 1600,
+      "height": 800,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "previews/logo-package-contact-sheet.jpg",
+      "bytes": 75827,
+      "sha256": "257eb8db8194ea2f98e1b6d9759dc0a927d8287487b6198b9faadc7b5951aac9",
+      "width": 1600,
+      "height": 1600,
+      "mode": "RGB",
+      "format": "JPEG"
+    },
+    {
+      "path": "previews/logo-package-contact-sheet.png",
+      "bytes": 119050,
+      "sha256": "7c5b7b01dde10736c6e7a9e26edd60273a3c1090d14ea75cc7ab0b10ce472c52",
+      "width": 1600,
+      "height": 1600,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "previews/transparency-checkerboard-preview.png",
+      "bytes": 90789,
+      "sha256": "b8959d75024dd1c4ef0de428b96b414b40b31053881810f223ed961a2a6f50db",
+      "width": 1200,
+      "height": 1200,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "print/macks-studios-mark-black.eps",
+      "bytes": 1039,
+      "sha256": "5990416a3cd39bca0f0695b9e00a81d184c3288f1c8e79407def0612ec193a74"
+    },
+    {
+      "path": "print/macks-studios-mark-black.pdf",
+      "bytes": 1537,
+      "sha256": "bf4a875025a170f937e028407a058417f51652e308591e1a8042bcee74870972"
+    },
+    {
+      "path": "print/macks-studios-mark-sage.eps",
+      "bytes": 1417,
+      "sha256": "5ae3f76d09941a747d9b3afaaa48b7c6d5f00c4395ae1cf2528ee5aa9cfb417e"
+    },
+    {
+      "path": "print/macks-studios-mark-sage.pdf",
+      "bytes": 1557,
+      "sha256": "a4d40c476da5ecd3d39e4e5a2611ba93c26f6307b64d1acc7f320a659fce1e4c"
+    },
+    {
+      "path": "print/macks-studios-mark-white-on-dark.eps",
+      "bytes": 1316,
+      "sha256": "0b79a4850b2bfb29d7993f6376ad0e87345f67c1f20407801b9fbd1bc43102c0"
+    },
+    {
+      "path": "print/macks-studios-mark-white-on-dark.pdf",
+      "bytes": 1568,
+      "sha256": "af2e99f335bef5f8cf61d6f049cb0311a413275ae852bb2c12fca2ddfc3188c0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4616,
+      "sha256": "25fb0616b01c8a0c2dff054ba0506c2b06b3a8989889a798b190599ac2715632"
+    },
+    {
+      "path": "source/macks-studios-mark-source-adjusted.png",
+      "bytes": 164443,
+      "sha256": "1504210c3e338f48ae0ec3bc0a0c829abc85034a2d4ccecdef63cbbfc32f511b",
+      "width": 1600,
+      "height": 1200,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "tools/build_logo_package.py",
+      "bytes": 22474,
+      "sha256": "a46aa905d475a0d24720e2ef9c5017edc759050232810ae4174cb1e312148540"
+    },
+    {
+      "path": "vector/icon/macks-studios-icon-black.svg",
+      "bytes": 910,
+      "sha256": "6a6b18e7f2afc100882b0eb6f357b5dfbb33acdc8b8bfdd873bbfac1fe2a97a7"
+    },
+    {
+      "path": "vector/icon/macks-studios-icon-color.svg",
+      "bytes": 1541,
+      "sha256": "ec7b05fc528d80a514e75460867af3cc6bfa95d3f3b65e1c64229177450f96eb"
+    },
+    {
+      "path": "vector/icon/macks-studios-icon-sage.svg",
+      "bytes": 910,
+      "sha256": "3343e072b69a94b20da0779a25af792bf6e43f6f02fdd85aa3b80edecbe7b74f"
+    },
+    {
+      "path": "vector/icon/macks-studios-icon-white.svg",
+      "bytes": 910,
+      "sha256": "e79a17402282fbfa53088f9d198eb1c4f738ded8812711c52ccc3807f5961882"
+    },
+    {
+      "path": "vector/mark/macks-studios-mark-black.svg",
+      "bytes": 856,
+      "sha256": "52916ab6d82d6d1fe9647b8cadb9eb06c64fb3fe2595e597af705b9fdf997e9b"
+    },
+    {
+      "path": "vector/mark/macks-studios-mark-color.svg",
+      "bytes": 1487,
+      "sha256": "6fe47f5f9c088bee21db66943daf50ad0edeee978dfa4e90f3e8bcc09e35bee3"
+    },
+    {
+      "path": "vector/mark/macks-studios-mark-sage.svg",
+      "bytes": 856,
+      "sha256": "f2d54c6a0c2da33564fe6bd32b311babfb439a2be07b80656f7d647cca55f94f"
+    },
+    {
+      "path": "vector/mark/macks-studios-mark-white.svg",
+      "bytes": 856,
+      "sha256": "861d25ad822434d117c43660f9bbcf4b415e34719e41947b677f41869e204aa4"
+    },
+    {
+      "path": "web/apple-touch-icon.png",
+      "bytes": 5804,
+      "sha256": "d70ddd36c8a0e0d067bb148d53a28127e740803dd001abe7ada04102465fe077",
+      "width": 180,
+      "height": 180,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "web/favicon-16x16.png",
+      "bytes": 564,
+      "sha256": "54c37c88126dae950f22c4366e4bc8f0e1fd244f51e6a75edbd1659767216438",
+      "width": 16,
+      "height": 16,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "web/favicon-32x32.png",
+      "bytes": 1263,
+      "sha256": "c07ac645a5d1cffbcd598f491d1c1b61d3c0fe0abc924c493e61d266ecf93f3d",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "web/favicon-48x48.png",
+      "bytes": 1994,
+      "sha256": "10662c8872ee3917ff7c9dde572208c5bf2f0fcb6a75127c55fa0063066cb53f",
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "web/favicon-black.svg",
+      "bytes": 910,
+      "sha256": "27b5285dd4c525394b392be930bbad8be35e3a66deece1db8c8538c4f636749b"
+    },
+    {
+      "path": "web/favicon-color.svg",
+      "bytes": 1541,
+      "sha256": "ca2f5d7ebd63b5c56848cc58aa40336453edf2daae811c3d6c3c6c276fac46bd"
+    },
+    {
+      "path": "web/favicon-white.svg",
+      "bytes": 910,
+      "sha256": "90e7ca935cfa0539d0ad69b4f0b5a1a792186be3c92d98dc498f41f00f8c5c27"
+    },
+    {
+      "path": "web/favicon.ico",
+      "bytes": 4695,
+      "sha256": "6a0b14aa2faad60130ce004346011d2aa751a757fa3b1fff36f287257eceb1c7",
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA",
+      "format": "ICO"
+    },
+    {
+      "path": "web/favicon.svg",
+      "bytes": 1541,
+      "sha256": "ca2f5d7ebd63b5c56848cc58aa40336453edf2daae811c3d6c3c6c276fac46bd"
+    },
+    {
+      "path": "web/head-links.html",
+      "bytes": 501,
+      "sha256": "2c37d5591fc00230f93e2cb3a89e250f51e26b847a30ad3490f284850f6d253f"
+    },
+    {
+      "path": "web/icon-192x192.png",
+      "bytes": 9019,
+      "sha256": "433adf8908aa89fbc8dd5c7cdc43aded204e2fb33b65d6664345fb228a2fcc02",
+      "width": 192,
+      "height": 192,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "web/icon-512x512.png",
+      "bytes": 37507,
+      "sha256": "c0651c85f776344d256b32fff918990dd7a84ed6773b4adef2ded0b89e7f5228",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "format": "PNG"
+    },
+    {
+      "path": "web/icon-maskable-1024x1024.png",
+      "bytes": 71039,
+      "sha256": "3c31abcbda36e99314307c844bb2375c7cb417012fb15ee9df9b5bd74add3588",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "web/icon-maskable-512x512.png",
+      "bytes": 21640,
+      "sha256": "5d362c7e394784c29f89531cf743caae74186b3a345fa238e88934d3670f9463",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "format": "PNG"
+    },
+    {
+      "path": "web/site.webmanifest.template.json",
+      "bytes": 596,
+      "sha256": "578e823873a9a50059d00c6573d4c5d53a6f695942f6a71518cb0da323f82ab6"
+    },
+    {
+      "path": "webp/macks-studios-icon-black-512x512.webp",
+      "bytes": 1210,
+      "sha256": "7e9e95fffac81f03dded5fa1e04bc3028590a04ebdc746305d9debbb63c4fe65",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "format": "WEBP"
+    },
+    {
+      "path": "webp/macks-studios-icon-color-512x512.webp",
+      "bytes": 18190,
+      "sha256": "f9e31cff4d2b175782dc51e1a078ed57fc952f33ff28a6e22e3674cd9a8da920",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "format": "WEBP"
+    },
+    {
+      "path": "webp/macks-studios-icon-sage-512x512.webp",
+      "bytes": 1410,
+      "sha256": "ece9a038b9a0bc11a604d916123aef15c0a480e46907364e69237ac608b3b605",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "format": "WEBP"
+    },
+    {
+      "path": "webp/macks-studios-icon-white-512x512.webp",
+      "bytes": 1176,
+      "sha256": "6c75cdab044236eeec2bc913ab8b51a36651d5489c8083a44981c68573555e18",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "format": "WEBP"
+    },
+    {
+      "path": "webp/macks-studios-mark-black-1024x768.webp",
+      "bytes": 3038,
+      "sha256": "16d39d101031863c333c50794903444fbfa37ef29f9e252ec3375c837a3b54d3",
+      "width": 1024,
+      "height": 768,
+      "mode": "RGBA",
+      "format": "WEBP"
+    },
+    {
+      "path": "webp/macks-studios-mark-color-1024x768.webp",
+      "bytes": 71462,
+      "sha256": "4585501ec708b264458bfd9897ad98e91f21fa0cdb068ef94bfca1f6e44107f0",
+      "width": 1024,
+      "height": 768,
+      "mode": "RGBA",
+      "format": "WEBP"
+    },
+    {
+      "path": "webp/macks-studios-mark-sage-1024x768.webp",
+      "bytes": 3596,
+      "sha256": "4e28f553a65a3fb0861ffb182c6c19507ad7d314b66ba091409d3c8580ef2b82",
+      "width": 1024,
+      "height": 768,
+      "mode": "RGBA",
+      "format": "WEBP"
+    },
+    {
+      "path": "webp/macks-studios-mark-white-1024x768.webp",
+      "bytes": 2868,
+      "sha256": "16ad232be3c4caa069aca1751755f9604e10fd156b7b90d0f7ad14778ad72abb",
+      "width": 1024,
+      "height": 768,
+      "mode": "RGBA",
+      "format": "WEBP"
+    }
+  ]
+}

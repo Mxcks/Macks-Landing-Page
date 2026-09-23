@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Macks Studios mark</title>
+  <desc id="desc">Seven vertical bars with mirrored angled tops arranged as a symmetrical studio mark.</desc>
+  <g transform="translate(42.0299 95.5224) scale(0.2674627)">
+    <polygon points="264,140 374,182 374,1060 264,1060" fill="#7c9885"/>
+    <polygon points="424,832 534,874 534,1060 424,1060" fill="#7c9885"/>
+    <polygon points="584,324 694,366 694,1060 584,1060" fill="#7c9885"/>
+    <polygon points="745,646 855,646 855,1060 745,1060" fill="#7c9885"/>
+    <polygon points="905,366 1015,324 1015,1060 905,1060" fill="#7c9885"/>
+    <polygon points="1065,874 1175,832 1175,1060 1065,1060" fill="#7c9885"/>
+    <polygon points="1225,182 1335,140 1335,1060 1225,1060" fill="#7c9885"/>
+  </g>
+</svg>
