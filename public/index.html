@@ -133,7 +133,8 @@
           <div class="guide-intro">
             <p class="eyebrow">Optional: a place to begin</p>
             <h2 id="guide-heading">Put your situation into words.</h2>
-            <p>Four short questions, one at a time. They help you gather your thoughts before a call. Nothing is sent. You can copy the summary and bring it with you, or skip this and book directly.</p>
+            <p data-guide-local>Four short questions, one at a time. They help you gather your thoughts before a call. Nothing is sent. You can copy the summary and bring it with you, or skip this and book directly.</p>
+            <p data-guide-send hidden>Four short questions, one at a time. They help you gather your thoughts before a call. Nothing is sent unless you choose to send it. You can copy the summary, send it to Macks Studios, or skip this and book directly.</p>
           </div>
           <div class="guide-card">
             <form id="guide-form" novalidate>
@@ -184,7 +185,7 @@
                   <label class="option"><input type="radio" name="help" value="An outside view of how the business runs" /><span>An outside view of how the business runs</span></label>
                 </div>
                 <label class="field-label field-label-spaced" for="notes">Anything else worth knowing? <span class="field-note">(optional)</span></label>
-                <textarea class="text-field" id="notes" name="notes" autocomplete="off"></textarea>
+                <textarea class="text-field" id="notes" name="notes" autocomplete="off" maxlength="2000"></textarea>
               </fieldset>
               <p class="error" id="step-error" role="alert" hidden></p>
               <div class="guide-actions">
@@ -196,18 +197,22 @@
             <div id="review" hidden>
               <p class="eyebrow">Your notes for a conversation</p>
               <h3 tabindex="-1" id="review-heading">Here is what you shared.</h3>
-              <p class="review-intro">Nothing has been sent. Copy this and bring it to your Studio Discovery call, or book without it.</p>
+              <p class="review-intro" data-guide-local>Nothing has been sent. Copy this and bring it to your Studio Discovery call, or book without it.</p>
+              <p class="review-intro" data-guide-send hidden>Nothing has been sent yet. Copy this and bring it to your Studio Discovery call, send it to Macks Studios ahead of the call, or book without it.</p>
               <label class="field-label" for="summary">Your summary</label>
               <textarea class="text-field review-summary" id="summary" readonly></textarea>
               <div class="review-actions">
+                <button class="button" id="send-button" type="button" hidden>Send my answers</button>
                 <button class="button" id="copy-button" type="button">Copy summary</button>
                 <button class="button secondary" id="edit-button" type="button">Edit answers</button>
                 <a class="button secondary" href="#" data-booking-link>Book a Studio Discovery call</a>
               </div>
               <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+              <p class="send-status" id="send-status" role="status" aria-live="polite" hidden></p>
             </div>
           </div>
-          <p class="privacy-note">This guide runs only in your browser. There is no form service, storage, or automatic submission. The booking link opens Cal.com separately and does not carry these answers with it.</p>
+          <p class="privacy-note" data-guide-local>This guide runs only in your browser. There is no form service, storage, or automatic submission. The booking link opens Cal.com separately and does not carry these answers with it.</p>
+          <p class="privacy-note" data-guide-send hidden>This guide runs only in your browser until you choose "Send my answers". Sending stores your four answers and any note with Macks Studios. It does not ask for your name or contact details, sets no cookies, and is not linked to your booking, so mention it on your call. The booking link opens Cal.com separately and does not carry these answers with it.</p>
         </div>
       </section>
 

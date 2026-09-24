@@ -96,6 +96,6 @@ The public story is deliberately simpler and must not contradict this.
 - No price, fee, deposit, refund, due-date, payment-schedule, or session-duration
   statements anywhere on the page.
 - The discovery guide is a browser-only aid for the visitor. It is not intake, not the
-  Foundation Map, not a Proposal, not an agreement, and not a payment step.
+  Foundation Map, not a Proposal, not an agreement, and not a payment step. Pending owner review (2026-09-23): when `MACKS_CONFIG.GUIDE_SUBMISSION` is configured, the visitor may choose "Send my answers", which stores the answers in Supabase; see `docs/development/guide-submissions.md`. Sent answers are possible later input to Discovery, not the Foundation Map itself.
 - TODO: refine Foundation Map public copy when Max supplies the Foundation Map brief.
   That brief becomes the source of truth for detailed wording.

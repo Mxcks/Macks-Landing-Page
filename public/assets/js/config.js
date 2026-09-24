@@ -25,5 +25,22 @@ window.MACKS_CONFIG = Object.freeze({
    * this value, and the live macksstudios.org is currently served by a
    * separate application (see docs/development/architecture.md).
    */
-  SITE_URL: "https://macksstudios.org"
+  SITE_URL: "https://macksstudios.org",
+
+  /**
+   * Discovery guide submission destination (Supabase, table guide_submissions).
+   * Both values are public by design: the publishable key only allows what Row
+   * Level Security allows, which for this table is anonymous INSERT and nothing
+   * else (supabase/migrations/20260923200000_guide_submissions.sql).
+   *
+   * Leave either value empty to switch sending off: the guide then behaves
+   * exactly as before (browser-only, no "Send my answers" button, no requests).
+   *
+   * NEVER put a secret / service-role key here. guide.js refuses to send if it
+   * detects one, but this file is served to every visitor.
+   */
+  GUIDE_SUBMISSION: Object.freeze({
+    SUPABASE_URL: "https://vcshbifiuxzfjuzkdexo.supabase.co",
+    SUPABASE_PUBLISHABLE_KEY: "sb_publishable_xaodsaZyXmrQl_7mQlXodg_oZRjllqo"
+  })
 });

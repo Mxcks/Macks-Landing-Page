@@ -53,8 +53,8 @@ problem-aware.
 - The public site is for discovery, positioning, and booking. Client operations,
   pricing negotiations, reservations, logins, and proposals live in the separate client
   system.
-- The discovery guide is optional, browser-only, and never submits anything. Copy must
-  not imply otherwise.
+- The discovery guide is optional and browser-only, and never submits anything on its
+  own. Copy must not imply otherwise. Pending owner review (2026-09-23): when `MACKS_CONFIG.GUIDE_SUBMISSION` is configured, the visitor may choose "Send my answers", which stores the answers in Supabase; see `docs/development/guide-submissions.md`.
 - Do not use internal deliverable names (see `terminology.md`) on the public page
   unless a customer would understand them without explanation.
 

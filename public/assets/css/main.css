@@ -235,6 +235,9 @@ textarea.text-field { min-height: 150px; resize: vertical; line-height: 1.55; }
 .review-summary { min-height: 215px !important; }
 .review-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.2rem; }
 .copy-status { min-height: 1.3em; margin: .9rem 0 0; color: var(--color-accent); font-size: var(--text-small); }
+.send-status { margin: .4rem 0 0; color: var(--color-accent); font-size: var(--text-small); line-height: 1.5; }
+.send-status.is-error { color: var(--color-error); }
+.button[aria-disabled="true"] { opacity: .65; cursor: progress; }
 
 /* --------------------------------------------------------------------------
    8. Footer

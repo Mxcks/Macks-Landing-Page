@@ -19,6 +19,6 @@ only. Where no definition exists, the term is marked undefined.
 | Studio Discovery call | The bookable call that is the site's primary conversion (stage 01). Not the diagnostic; the diagnostic is the Foundation Map. | Public. Always "Studio Discovery call" on the site. |
 | Inquiries / Booking / Payments | Example connected capabilities a business presence can include. | Public, as examples, not as products. |
 | Connected business systems | Owner-brief phrase for the practical systems a presence links to. | Public. |
-| Discovery guide | The optional browser-only questionnaire on the public page. | Public. Must never be described as a form that sends anything. |
+| Discovery guide | The optional browser-only questionnaire on the public page. | Public. Must never be described as sending anything unless sending is configured; then only "Send my answers" sends, and only on the visitor's click. |
 | Seven business systems | Referenced in the content package README as "the backbone." | **Undefined** in supplied material. Do not use until defined. |
 | Client management system | The separate post-lead application (engagements, proposals, invoices, projects, handoff). | Not referenced on the public site. |

@@ -56,7 +56,7 @@ disables smooth scrolling and button transitions.
 |---|---|---|
 | `config.js` | Defines frozen `window.MACKS_CONFIG` with `BOOKING_URL` and `SITE_URL`. | anything else |
 | `main.js` | On DOM ready, sets `href` of every `[data-booking-link]` to `BOOKING_URL` after validating it is a parseable https URL. If invalid or missing: logs a console error, removes `href`, sets `aria-disabled`, appends "(unavailable)" to the label. | network requests, analytics |
-| `guide.js` | Runs the discovery guide: shows one `fieldset.step` at a time, validates single-choice steps, moves focus to the step legend, updates progress label and track, builds a plain-text summary, copies it via the Clipboard API with a select-text fallback. | storage, fetch, XHR, beacons, form submission, collecting contact details |
+| `guide.js` | Runs the discovery guide: shows one `fieldset.step` at a time, validates single-choice steps, moves focus to the step legend, updates progress label and track, builds a plain-text summary, copies it via the Clipboard API with a select-text fallback. When `GUIDE_SUBMISSION` is configured, shows "Send my answers" and makes one POST to Supabase on that click (`docs/development/guide-submissions.md`). | browser storage, requests before the explicit send, XHR, beacons, collecting contact details |
 
 Scripts load at the end of `<body>` in the order config, main, guide. Booking links (seven: header, hero, after connected systems, process, guide review, final CTA, footer) have
 `href="#"` in markup and depend on JavaScript; the `<noscript>` note says so.
@@ -79,7 +79,8 @@ record and must not be used until that changes.
 - Validation error is a `role="alert"` paragraph; focus returns to the first option.
 - On review: form hidden, summary built from the DOM, focus moved to the review heading.
 - "Edit answers" returns to the last step with answers intact.
-- Answers exist only in the DOM while the page is open. Nothing is stored or sent.
+- Answers exist only in the DOM while the page is open. Nothing is stored in the browser.
+  Nothing is sent unless sending is configured and the visitor presses "Send my answers".
 
 ## Brand asset paths
 

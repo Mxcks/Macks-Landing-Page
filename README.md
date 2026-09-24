@@ -35,7 +35,8 @@ public/                      deploy root (everything served comes from here)
   assets/js/guide.js         discovery guide
   site.webmanifest           web app manifest
   assets/brand/              production brand set (logo, favicons, app icons)
-  assets/js/config.js        BOOKING_URL and SITE_URL, the only place they are defined
+  assets/js/config.js        BOOKING_URL, SITE_URL, GUIDE_SUBMISSION (only place they are defined)
+supabase/                    guide_submissions migration and its security check
 brand/                       official logo masters, not deployed
 docs/product/                what Macks is, terminology, content model, content guidelines
 docs/development/            architecture
@@ -89,7 +90,11 @@ wired from that value by `main.js`; no Cal.com URL appears in the HTML.
 ## Privacy model
 
 Normal browsing sends nothing to Macks. The discovery guide runs entirely in the
-visitor's browser: answers are never submitted, stored, or attached to the booking link.
+visitor's browser: answers are never submitted automatically, stored in the browser, or
+attached to the booking link. When `MACKS_CONFIG.GUIDE_SUBMISSION` is configured (it is
+empty today), the review screen adds "Send my answers": one explicit request that stores
+the four answers and optional note in Supabase, with no contact details. See
+`docs/development/guide-submissions.md`.
 The guide asks no contact details. The only outbound navigation is to Cal.com. No
 analytics, fonts, or icon CDNs are loaded.
 Any change to this needs an explicit decision and an update to this section.
