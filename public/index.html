@@ -12,6 +12,9 @@
     <link rel="icon" href="/assets/brand/favicon.ico" sizes="any" />
     <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png" sizes="180x180" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&display=swap" />
     <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
   <body>
@@ -30,21 +33,22 @@
 
     <main id="top" tabindex="-1">
       <!-- 2. Hero -->
-      <div class="shell">
-        <section class="hero" aria-labelledby="hero-title">
+      <section class="hero hero-cinematic" aria-labelledby="hero-title">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="shell hero-inner">
           <div class="hero-copy">
             <p class="eyebrow">Macks Studios</p>
-            <h1 id="hero-title">Make the next move clearer.</h1>
+            <h1 id="hero-title">Make the next move clearer</h1>
             <p class="lede">We help service businesses connect the pieces behind their work: the website, the inquiries, the bookings, the documents, the payments. We map what you already have, find what is missing, and shape a foundation you can build from. A website may be part of it. It is not the whole answer.</p>
             <div class="hero-actions">
-              <a class="button" href="#" data-booking-link>Book a Studio Discovery call</a>
+              <a class="button button-glow" href="#" data-booking-link>Book a Studio Discovery call</a>
               <a class="button secondary" href="#guide">Not sure yet? Try the guide</a>
             </div>
-            <p class="hero-note">A conversation about where your business is and what is getting in the way.</p>
+            <p class="hero-proof"><strong>Discovery</strong><span aria-hidden="true"> · </span><strong>Foundation Map</strong><span aria-hidden="true"> · </span><strong>Proposal</strong></p>
           </div>
-          <img class="hero-mark" src="/assets/brand/logo-mark.svg" alt="" width="1600" height="1200" />
-        </section>
-      </div>
+        </div>
+        <a class="scroll-cue" href="#problems" aria-label="Scroll to content"><span aria-hidden="true"></span></a>
+      </section>
 
       <!-- 3. Problem recognition -->
       <section class="section" id="problems" aria-labelledby="problems-title">
