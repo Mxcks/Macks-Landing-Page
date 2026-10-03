@@ -29,13 +29,19 @@
 
   /* Typography */
   --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --text-eyebrow: .76rem;
+  --font-display: "Archivo", Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --text-eyebrow: .75rem;
   --text-small: .84rem;
   --text-body: 1rem;
   --text-lede: clamp(1.04rem, 2vw, 1.18rem);
   --text-h3: clamp(1.5rem, 3vw, 2rem);
   --text-h2: clamp(2rem, 4.5vw, 3.25rem);
-  --text-h1: clamp(3rem, 7vw, 4.75rem);
+  --text-h1: clamp(2.9rem, 8vw, 5.5rem);
+
+  /* Cinematic accents (style.tech-tuesday-cinematic) */
+  --sage-glow: rgba(168,196,176,.16);
+  --sage-hairline: rgba(168,196,176,.16);
+  --vignette-deep: rgba(3,6,10,.85);
 
   /* Spacing */
   --space-1: .25rem;
@@ -97,9 +103,9 @@ h1, h2, h3, p { overflow-wrap: break-word; }
 /* --------------------------------------------------------------------------
    3. Typography
    -------------------------------------------------------------------------- */
-.eyebrow { margin: 0; color: var(--color-accent); font-size: var(--text-eyebrow); font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
-h1 { max-width: var(--measure-heading); margin: 1.2rem 0 1.5rem; font-size: var(--text-h1); font-weight: 700; letter-spacing: -.068em; line-height: 1.02; }
-h2 { margin: .75rem 0 1rem; font-size: var(--text-h2); font-weight: 650; letter-spacing: -.055em; line-height: 1.12; }
+.eyebrow { margin: 0; color: var(--color-accent); font-size: var(--text-eyebrow); font-weight: 800; letter-spacing: .32em; text-transform: uppercase; }
+h1 { max-width: var(--measure-heading); margin: 1.2rem 0 1.5rem; font-family: var(--font-display); font-size: var(--text-h1); font-weight: 900; letter-spacing: -.025em; line-height: 1.0; }
+h2 { margin: .75rem 0 1rem; font-family: var(--font-display); font-size: var(--text-h2); font-weight: 900; letter-spacing: -.02em; line-height: 1.12; }
 h3 { margin: 0; font-size: var(--text-h3); font-weight: 650; letter-spacing: -.035em; line-height: 1.25; }
 .lede { max-width: var(--measure-copy); margin: 0; color: var(--color-text-secondary); font-size: var(--text-lede); line-height: 1.7; }
 
@@ -118,6 +124,12 @@ h3 { margin: 0; font-size: var(--text-h3); font-weight: 650; letter-spacing: -.0
 .button.secondary:hover { background: var(--color-surface-hover); border-color: var(--color-accent); }
 .button.quiet { border-color: transparent; background: transparent; color: var(--color-text-secondary); }
 .button.quiet:hover { color: var(--color-text); background: var(--color-surface-hover); }
+/* Cinematic primary: pulsing sage glow (style.tech-tuesday-cinematic) */
+.button-glow { box-shadow: 0 0 24px rgba(168,196,176,.35), 0 0 64px rgba(168,196,176,.12); animation: cta-pulse 2.8s ease-in-out infinite; }
+@keyframes cta-pulse {
+  0%, 100% { box-shadow: 0 0 24px rgba(168,196,176,.35), 0 0 64px rgba(168,196,176,.12); }
+  50% { box-shadow: 0 0 34px rgba(168,196,176,.5), 0 0 90px rgba(168,196,176,.2); }
+}
 [data-booking-link][aria-disabled="true"] { opacity: .6; cursor: not-allowed; }
 
 /* --------------------------------------------------------------------------
@@ -134,13 +146,29 @@ h3 { margin: 0; font-size: var(--text-h3); font-weight: 650; letter-spacing: -.0
 @media (min-width: 768px) { .site-nav { display: flex; } }
 
 /* --------------------------------------------------------------------------
-   6. Hero
+   6. Hero — cinematic full-viewport (style.tech-tuesday-cinematic)
    -------------------------------------------------------------------------- */
-.hero { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(280px, .85fr); align-items: center; gap: clamp(1.5rem, 4vw, 3.5rem); padding-block: var(--hero-padding-top) var(--hero-padding-bottom); }
-.hero-copy { min-width: 0; }
-.hero-mark { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; } /* height:auto overrides the img height attribute so aspect-ratio applies */
+.hero-cinematic { position: relative; display: flex; align-items: center; min-height: 94vh; min-height: 94svh; padding-block: clamp(6rem, 12vh, 9rem); overflow: clip; }
+.hero-bg { position: absolute; inset: 0; background: url("/assets/img/hero-cinematic.webp") center / cover no-repeat, var(--color-background); }
+.hero-bg::before { /* sage radial spotlight behind the headline */
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(ellipse 60% 50% at 50% 42%, var(--sage-glow), transparent 70%);
+}
+.hero-bg::after { /* top legibility fade, edge vignette, bottom blend into page */
+  content: ""; position: absolute; inset: 0;
+  background:
+    linear-gradient(180deg, rgba(13,17,23,.6) 0%, transparent 32%, transparent 60%, var(--color-background) 100%),
+    radial-gradient(ellipse 120% 90% at 50% 50%, transparent 55%, var(--vignette-deep) 100%);
+}
+.hero-inner { position: relative; z-index: 1; width: 100%; }
+.hero-cinematic .hero-copy { max-width: 800px; }
+.hero-cinematic .lede { text-shadow: 0 1px 12px rgba(3,6,10,.6); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: .85rem; margin-top: var(--space-7); }
-.hero-note { margin: 2.4rem 0 0; color: var(--color-text-muted); font-size: var(--text-small); line-height: 1.6; }
+.hero-proof { display: flex; flex-wrap: wrap; align-items: baseline; gap: .35rem .6rem; margin: 2rem 0 0; color: var(--color-text-secondary); font-size: .92rem; }
+.hero-proof strong { color: var(--color-text); font-weight: 750; }
+.hero-proof span { color: var(--color-accent); }
+.scroll-cue { position: absolute; left: 50%; bottom: 1.6rem; z-index: 1; display: grid; place-items: center; width: 44px; height: 44px; transform: translateX(-50%); }
+.scroll-cue span { display: block; width: 20px; height: 20px; border-right: 2px solid var(--color-accent); border-bottom: 2px solid var(--color-accent); transform: rotate(45deg) translate(-2px, -2px); opacity: .85; }
 
 /* --------------------------------------------------------------------------
    6b. Content sections (problems, systems, foundation, process, final CTA)
@@ -253,18 +281,16 @@ textarea.text-field { min-height: 150px; resize: vertical; line-height: 1.55; }
    9. Responsive
    -------------------------------------------------------------------------- */
 @media (max-width: 760px) {
-  .hero { grid-template-columns: 1fr; gap: var(--space-4); }
-  .hero-mark { grid-row: 1; width: min(100%, 260px); }
-  .hero-copy { grid-row: 2; }
+  .hero-cinematic { min-height: 92vh; min-height: 92svh; }
 }
 @media (max-width: 560px) {
   .shell { width: min(100% - var(--gutter-narrow), var(--content-width)); }
   .site-header { min-height: 70px; }
   .wordmark { font-size: .72rem; }
-  .hero { padding-block: var(--space-6) 5rem; }
-  .hero-mark { width: 104px; }
+  .hero-cinematic { padding-block: var(--space-6) 5.5rem; }
   .hero-actions { margin-top: 1.75rem; }
   .hero-actions .button { width: 100%; }
+  .scroll-cue { bottom: 1.1rem; }
   .guide-card { min-height: 0; }
   .guide-actions .button, .review-actions .button { flex: 1 1 auto; }
 }
@@ -275,4 +301,5 @@ textarea.text-field { min-height: 150px; resize: vertical; line-height: 1.55; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .button, .skip-link { transition: none; }
+  .button-glow { animation: none; }
 }
