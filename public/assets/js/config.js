@@ -18,6 +18,7 @@ window.MACKS_CONFIG = Object.freeze({
    * record as of 2026-09-23 and must not be used until that changes.
    */
   BOOKING_URL: "https://cal.com/macks-studios/studio-discovery",
+  HORIZON_URL: "https://cal.com/macks-studios/horizon-discovery",
 
   /**
    * Canonical public origin. Used for <link rel="canonical"> and Open Graph
