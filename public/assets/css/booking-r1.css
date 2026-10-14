@@ -1,0 +1,128 @@
+/* MACKS-BOOKING-20261014-R1: review-only client booking handoff treatment.
+   Scoped to the existing #book section. P01 Cinzel/Inter is a candidate, not
+   an approved replacement for the original Archivo/Inter reference. */
+@font-face {
+  font-family: 'MacksReviewCinzel';
+  src: url('/assets/fonts/cinzel-latin-600.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'MacksReviewInter';
+  src: url('/assets/fonts/inter-latin-400-normal.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'MacksReviewInter';
+  src: url('/assets/fonts/inter-latin-700-normal.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+#book {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 72% 90% at 82% 18%, rgba(168,196,176,.17), transparent 68%),
+    radial-gradient(ellipse 62% 85% at 0% 100%, rgba(87,125,103,.16), transparent 70%),
+    #0d1117;
+}
+#book::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(135deg, rgba(168,196,176,.055), transparent 44%, rgba(3,6,10,.62));
+}
+#book .cta-panel {
+  max-width: 920px;
+  margin-inline: auto;
+  padding: clamp(2rem, 5vw, 4rem);
+  border: 1px solid rgba(168,196,176,.28);
+  border-radius: 16px;
+  background: linear-gradient(145deg, rgba(20,26,35,.94), rgba(12,18,25,.95));
+  box-shadow: 0 28px 80px rgba(0,0,0,.28), inset 0 1px rgba(235,255,240,.06);
+}
+#book .eyebrow {
+  color: #a8c4b0;
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .22em;
+}
+#book h2 {
+  max-width: 720px;
+  color: #f5f5f5;
+  font-family: 'MacksReviewCinzel', Georgia, serif;
+  font-size: clamp(2rem, 4.2vw, 3.4rem);
+  font-weight: 600;
+  letter-spacing: -.015em;
+  line-height: 1.14;
+}
+#book .section-lede {
+  max-width: 680px;
+  color: #cbd5d0;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.14rem);
+  line-height: 1.7;
+}
+#book .cta-actions .button {
+  min-height: 52px;
+  border-radius: 99px;
+  border-color: #a8c4b0;
+  background: #a8c4b0;
+  color: #0d1117;
+  font-weight: 800;
+  box-shadow: 0 0 0 1px rgba(168,196,176,.1), 0 8px 30px rgba(93,145,113,.22);
+}
+#book .cta-actions .button:hover {
+  border-color: #c5dac9;
+  background: #c5dac9;
+}
+#book .cta-actions .button:focus-visible {
+  outline: 3px solid #e6f4eb;
+  outline-offset: 4px;
+}
+#book .cta-note { color: #adbdb4; }
+#book .booking-preview-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2rem; }
+#book .booking-preview-actions .button { border-radius: 99px; font-weight: 800; }
+#book .booking-preview-actions .button:first-child { background: #a8c4b0; color: #0d1117; border-color: #a8c4b0; }
+#book .booking-preview-actions .button.secondary { background: transparent; color: #f5f5f5; border-color: rgba(168,196,176,.55); }
+#book .booking-preview-actions .button:focus-visible { outline: 3px solid #e6f4eb; outline-offset: 4px; }
+
+/* Isolated free-first choice page. No Cal.com controls are restyled. */
+.booking-choice-page { background: #0d1117; color: #f5f5f5; font-family: 'MacksReviewInter', Inter, ui-sans-serif, system-ui, sans-serif; }
+.booking-choice-main {
+  min-height: calc(100vh - 210px);
+  padding-block: clamp(3.5rem, 8vw, 7rem);
+  background: radial-gradient(ellipse 75% 62% at 77% 3%, rgba(168,196,176,.17), transparent 70%), #0d1117;
+}
+.booking-choice-main > .shell > .eyebrow { letter-spacing: .22em; font-weight: 800; }
+.booking-choice-main h1 { max-width: 850px; margin: 1.1rem 0 1.2rem; font-family: 'MacksReviewCinzel', Georgia, serif; font-size: clamp(2.4rem, 5vw, 4.4rem); font-weight: 600; letter-spacing: -.02em; line-height: 1.12; }
+.booking-choice-lede { max-width: 740px; margin: 0; color: #cbd5d0; font-size: clamp(1rem, 1.6vw, 1.18rem); line-height: 1.7; }
+.booking-choice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: clamp(2rem, 5vw, 3.5rem); }
+.booking-option { display: flex; flex-direction: column; align-items: start; min-width: 0; padding: clamp(1.5rem, 3vw, 2.35rem); border: 1px solid rgba(168,196,176,.23); border-radius: 16px; background: linear-gradient(145deg, rgba(20,26,35,.97), rgba(12,18,25,.96)); box-shadow: 0 18px 60px rgba(0,0,0,.18); }
+.booking-option-first { border-color: rgba(168,196,176,.58); box-shadow: 0 22px 70px rgba(31,77,45,.15), inset 0 1px rgba(230,250,233,.06); }
+.booking-option-kicker { margin: 0; color: #a8c4b0; font-size: .78rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+.booking-option h2 { margin: .8rem 0 1rem; color: #f5f5f5; font-family: 'MacksReviewCinzel', Georgia, serif; font-size: clamp(1.8rem, 3vw, 2.7rem); font-weight: 600; letter-spacing: -.02em; line-height: 1.17; }
+.booking-option-meta { margin: 0 0 1rem; color: #d9e9de; font-weight: 700; line-height: 1.5; }
+.booking-option > p:not(.booking-option-kicker):not(.booking-option-meta) { margin: 0 0 2rem; color: #cbd5d0; line-height: 1.65; }
+.booking-option .button { width: 100%; margin-top: auto; border-radius: 99px; font-weight: 800; white-space: normal; }
+.booking-option .button:focus-visible { outline: 3px solid #e6f4eb; outline-offset: 4px; }
+.booking-choice-note { max-width: 770px; margin: 1.5rem 0 0; color: #adbdb4; font-size: .9rem; line-height: 1.65; }
+
+@media (max-width: 680px) {
+  .booking-choice-grid { grid-template-columns: 1fr; }
+  .booking-option { border-radius: 13px; }
+  #book .booking-preview-actions .button { width: 100%; }
+}
+
+@media (max-width: 560px) {
+  #book .cta-panel { padding: 1.6rem; border-radius: 13px; }
+  #book .eyebrow { letter-spacing: .17em; }
+}
