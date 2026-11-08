@@ -1,0 +1,430 @@
+<!DOCTYPE html><html class="dark" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><title>Booking Setup | Macks Studios</title><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-background":"#dee2ec","error":"#ffb4ab","primary":"#c3e0cb","surface-tint":"#b1cdb9","inverse-surface":"#dee2ec","light-sage-wash":"#E3EDE5","surface-bright":"#343941","paper":"#E6EDF3","light-surface":"#FFFFFF","primary-fixed":"#cdead4","light-muted":"#5A6570","surface":"#161B22","sage-wash":"#1B2928","on-secondary-fixed-variant":"#394b3e","primary-fixed-dim":"#b1cdb9","secondary":"#b7ccbb","on-primary":"#1d3527","surface-container-lowest":"#090f15","secondary-fixed":"#d3e8d7","on-secondary-fixed":"#0e1f15","surface-container-highest":"#30353d","surface-container-high":"#252a32","faint":"#8F9DA7","sage-light":"#C5DAC9","on-error":"#690005","on-primary-container":"#395242","error-container":"#93000a","on-secondary-container":"#a9bead","sage":"#A8C4B0","on-tertiary-fixed":"#002110","on-tertiary-container":"#30533e","ink":"#0D1017","surface-variant":"#30353d","light-background":"#F4F7F5","tertiary-container":"#9fc6ab","on-primary-fixed":"#072013","line":"#30363D","muted":"#B5C1CA","outline-variant":"#424843","tertiary":"#bae2c6","rose":"#E9B6C5","outline":"#8c928c","primary-container":"#a8c4b0","on-surface-variant":"#c2c8c1","surface-container":"#1b2027","background":"#0f141b","on-surface":"#dee2ec","light-faint":"#8B95A1","surface-dim":"#0f141b","inverse-primary":"#4b6454","light-text":"#101418","on-secondary":"#233429","on-error-container":"#ffdad6","secondary-container":"#3b4d41","on-tertiary":"#133723","tertiary-fixed":"#c4eccf","secondary-fixed-dim":"#b7ccbb","surface-container-low":"#171c23","on-primary-fixed-variant":"#334c3d","on-tertiary-fixed-variant":"#2b4e39","light-line":"#DFE5E9","tertiary-fixed-dim":"#a8d0b4","light-rose":"#B44A68","inverse-on-surface":"#2c3138","sage-deep":"#476B54"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"margin":"2rem","space-md":"1rem","margin-mobile":"1rem","space-lg":"1.5rem","space-sm":"0.5rem","gutter-sm":"1rem","space-xl":"2.5rem","margin-desktop":"3rem","space-xs":"0.25rem","gutter-lg":"2rem","gutter":"1.5rem"},"fontFamily":{"display-mobile":["Inter"],"lede":["Inter"],"body":["Inter"],"display":["Inter"],"headline-md":["Inter"],"small":["Inter"],"headline-lg-mobile":["Inter"],"headline-lg":["Inter"],"kicker":["Inter"]},"fontSize":{"display-mobile":["32px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"700"}],"lede":["17px",{"lineHeight":"27.2px","letterSpacing":"0em","fontWeight":"400"}],"body":["16px",{"lineHeight":"25.6px","letterSpacing":"0em","fontWeight":"400"}],"display":["40px",{"lineHeight":"46px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-md":["20px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"700"}],"small":["14px",{"lineHeight":"21px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg-mobile":["26px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-lg":["32px",{"lineHeight":"38.4px","letterSpacing":"-0.01em","fontWeight":"700"}],"kicker":["12px",{"lineHeight":"16px","letterSpacing":"0.12em","fontWeight":"700"}]}}}}</script></head><body class="bg-ink font-body text-body text-paper antialiased min-h-screen"><header class="fixed top-0 w-full z-50 bg-ink/90 backdrop-blur-xl border-b border-line"><div class="h-20 max-w-[1200px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="Macks Studios Logo" class="h-8 w-auto object-contain select-none" src="/assets/brand/logo-mark.svg"><span class="font-headline-md text-headline-md tracking-tight text-paper select-none">Macks Studios</span></div><nav class="hidden md:flex items-center gap-space-lg" data-active-classes="text-sage border-b-2 border-sage font-medium"><a class="text-small font-small text-muted hover:text-paper transition-colors py-2 border-b-2 border-transparent" data-path="foundation" href="/foundation/">Studio Foundation</a><a aria-current="page" class="text-small font-small text-sage font-medium transition-colors py-2 border-b-2 border-sage" data-path="booking-setup" href="/booking-setup/">Booking Setup</a><a class="text-small font-small text-muted hover:text-paper transition-colors py-2 border-b-2 border-transparent" data-path="pricing" href="/pricing/">Pricing</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center h-[52px] px-6 rounded-lg bg-sage hover:bg-sage-light text-ink font-body text-body font-medium transition-colors select-none" data-path="book-a-call" href="/booking-setup/#discovery-picker">Book a call</a><button type="button" aria-label="Account" class="hidden md:flex items-center justify-center bg-transparent border-transparent text-sage hover:text-paper transition-colors cursor-pointer"><span class="material-symbols-outlined text-[28px]">person</span></button><button type="button" id="mobile-menu-button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu" class="flex md:hidden items-center justify-center bg-transparent border-transparent text-sage hover:text-paper transition-colors cursor-pointer"><span class="material-symbols-outlined text-[28px]" id="mobile-menu-icon">menu</span></button></div></div><nav id="mobile-menu" class="hidden md:hidden border-t border-line bg-ink" aria-label="Mobile"><div class="max-w-[1200px] mx-auto px-margin-mobile py-4 flex flex-col"><a class="mobile-menu-link text-body font-body text-muted hover:text-paper transition-colors py-3 border-b border-line" data-path="foundation" href="/foundation/">Studio Foundation</a><a class="mobile-menu-link text-body font-body text-sage font-medium transition-colors py-3 border-b border-line" data-path="booking-setup" href="/booking-setup/" aria-current="page">Booking Setup</a><a class="mobile-menu-link text-body font-body text-muted hover:text-paper transition-colors py-3 border-b border-line" data-path="pricing" href="/pricing/">Pricing</a><a class="mobile-menu-link inline-flex items-center justify-center h-[52px] px-6 mt-4 rounded-lg bg-sage hover:bg-sage-light text-ink font-body text-body font-medium transition-colors select-none" data-path="book-a-call" href="/booking-setup/#discovery-picker">Book a call</a></div></nav></header><main class="w-full pt-20 bg-ink min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full text-paper font-body">
+<!-- Hero Section -->
+<section class="w-full max-w-[1200px] mx-auto px-margin-mobile lg:px-margin pt-space-xl pb-16">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Eyebrow & Headline -->
+<div class="flex flex-col gap-space-sm">
+<span class="font-kicker text-kicker uppercase text-sage tracking-[0.12em]">STANDALONE SYSTEM SETUP</span>
+<h1 class="font-display text-display tracking-tight text-paper text-balance max-w-2xl">
+            A booking system that works, set up in seven days.
+          </h1>
+</div>
+<!-- Lede -->
+<p class="font-lede text-lede text-muted max-w-2xl text-pretty leading-relaxed">
+          Most service businesses lose appointments to messy links, unconfirmed times, and double bookings. We install a clean, automated Cal.com system calibrated for your service workflow. One week from intake to live.
+        </p>
+<!-- Actions & Quiet Badge -->
+<div class="flex flex-col sm:flex-row sm:items-center gap-space-md pt-space-sm">
+<a class="inline-flex items-center justify-center h-[52px] px-6 rounded-lg bg-sage hover:bg-sage-light text-ink font-body text-body font-medium transition-colors select-none" href="#discovery-picker">
+            Book a call
+          </a>
+<a class="inline-flex items-center justify-center h-[52px] px-6 rounded-lg bg-transparent hover:bg-surface text-paper border border-line hover:border-sage transition-colors select-none font-body text-body font-medium" href="#timeline-steps">
+            Review the steps
+          </a>
+</div>
+<div class="inline-flex items-center gap-space-sm self-start px-3.5 py-1.5 rounded-lg bg-surface border border-line text-small font-small text-muted"><span class="w-1.5 h-1.5 rounded-full bg-sage"></span>
+<span class="">$500 one-time flat investment • Zelle: macksstudios</span></div>
+</div>
+<!-- Hero Visual Metric / Badge Card -->
+<div class="lg:col-span-4 flex flex-col gap-space-md mt-6 lg:mt-0">
+<div class="p-space-lg rounded-[12px] bg-surface border border-line flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center justify-between pb-space-sm border-b border-line">
+<span class="font-kicker text-kicker text-faint uppercase">Deployment Scope</span>
+<span class="text-small font-small text-sage">7 Days</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-sage text-[18px] mt-0.5">check_circle</span>
+<span class="text-small font-small text-paper">Direct Cal.com tenant provisioning</span>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-sage text-[18px] mt-0.5">check_circle</span>
+<span class="text-small font-small text-paper">Buffer times, limits &amp; calendar sanity</span>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-sage text-[18px] mt-0.5">check_circle</span>
+<span class="text-small font-small text-paper">Direct intake &amp; automated notifications</span>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-sage text-[18px] mt-0.5">check_circle</span>
+<span class="text-small font-small text-paper">Zero-fee settlement instruction flow</span>
+</div>
+</div>
+<div class="pt-space-sm border-t border-line text-faint text-small font-small flex items-center justify-between">
+<span class="">Guaranteed handoff</span>
+<span class="text-paper font-medium">Day 7</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 1-Week Timeline Section -->
+<section class="w-full border-t border-line bg-surface/50 py-16" id="timeline-steps">
+<div class="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs max-w-xl">
+<span class="font-kicker text-kicker text-sage uppercase">The 1-Week Timeline</span>
+<h2 class="font-headline-lg text-headline-lg tracking-tight text-paper">Clear phases from intake to delivery</h2>
+<p class="font-body text-body text-muted">A predictable 7-day calendar implementation built without trial periods or open-ended timelines.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Step 1 -->
+<div class="p-space-lg rounded-[12px] bg-surface border border-line flex flex-col justify-between gap-space-lg">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="text-kicker font-kicker text-faint uppercase">Stage 01</span>
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-sage-wash text-sage">Day 1</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-paper">Horizon Discovery Call</h3>
+<p class="font-small text-small text-muted leading-relaxed">
+              15-minute diagnostic call to understand your client intake, calendar rules, buffer times, and service types.
+            </p>
+</div>
+<div class="pt-space-sm border-t border-line text-faint text-small font-small">
+            Output: Verified configuration map
+          </div>
+</div>
+<!-- Step 2 -->
+<div class="p-space-lg rounded-[12px] bg-surface border border-line flex flex-col justify-between gap-space-lg">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="text-kicker font-kicker text-faint uppercase">Stage 02</span>
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-sage-wash text-sage">Days 2–4</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-paper">System Configuration</h3>
+<p class="font-small text-small text-muted leading-relaxed">
+              Cal.com instance configuration, time zone detection, custom routing, intake form fields, and automated email/SMS confirmations.
+            </p>
+</div>
+<div class="pt-space-sm border-t border-line text-faint text-small font-small">
+            Output: Structured booking engine
+          </div>
+</div>
+<!-- Step 3 -->
+<div class="p-space-lg rounded-[12px] bg-surface border border-line flex flex-col justify-between gap-space-lg">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="text-kicker font-kicker text-faint uppercase">Stage 03</span>
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-sage-wash text-sage">Days 4–5</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-paper">Payment &amp; Zelle Coordination</h3>
+<p class="font-small text-small text-muted leading-relaxed">
+              Setup of payment instructions (Zelle preferred for zero transaction friction), invoicing integration, and client-facing instructions.
+            </p>
+</div>
+<div class="pt-space-sm border-t border-line text-faint text-small font-small">
+            Output: Frictionless payment link rules
+          </div>
+</div>
+<!-- Step 4 -->
+<div class="p-space-lg rounded-[12px] bg-surface border border-line flex flex-col justify-between gap-space-lg">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="text-kicker font-kicker text-faint uppercase">Stage 04</span>
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-sage-wash text-sage">Days 6–7</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-paper">Live Handoff &amp; Testing</h3>
+<p class="font-small text-small text-muted leading-relaxed">
+              End-to-end dry run, test bookings, handoff documentation, and staff walkthrough to ensure calm day-to-day operation.
+            </p>
+</div>
+<div class="pt-space-sm border-t border-line text-faint text-small font-small">
+            Output: Operational sign-off &amp; guide
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Cal.com Embedded Booking Interface -->
+<section class="w-full max-w-[1200px] mx-auto px-margin-mobile lg:px-margin py-16" id="discovery-picker">
+<div class="flex flex-col gap-space-sm mb-space-lg">
+<span class="font-kicker text-kicker text-sage uppercase">Reserve Your Horizon Call</span>
+<h2 class="font-headline-lg text-headline-lg tracking-tight text-paper">Schedule your 15-minute Horizon Discovery call</h2>
+<p class="font-body text-body text-muted max-w-xl">Select a time to review your service cadence and calendar requirements with our team.</p>
+</div>
+<!-- Cal.com Style Card Wrapper -->
+<div class="bg-surface border border-line rounded-[12px] p-space-lg lg:p-space-xl shadow-md">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Left diagnostic sidebar -->
+<div class="lg:col-span-4 flex flex-col gap-space-md border-b lg:border-b-0 lg:border-r border-line pb-space-lg lg:pb-0 lg:pr-space-lg">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-sage-wash border border-line flex items-center justify-center text-sage">
+<span class="material-symbols-outlined text-[20px]">calendar_today</span>
+</div>
+<div>
+<div class="font-headline-md text-headline-md text-paper">Macks Studios</div>
+<div class="text-small font-small text-muted">Horizon Discovery Call</div>
+</div>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-sm">
+<div class="flex items-center gap-2 text-small font-small text-muted">
+<span class="material-symbols-outlined text-[18px] text-faint">schedule</span>
+<span class="">15 minutes</span>
+</div>
+<div class="flex items-center gap-2 text-small font-small text-muted">
+<span class="material-symbols-outlined text-[18px] text-faint">videocam</span>
+<span class="">Google Meet</span>
+</div>
+<div class="flex items-center gap-2 text-small font-small text-muted">
+<span class="material-symbols-outlined text-[18px] text-faint">public</span>
+<span class="">Central Time (US &amp; Canada)</span>
+</div>
+</div>
+<p class="text-small font-small text-muted leading-relaxed pt-space-xs">
+            We will review your incoming booking bottlenecks, existing scheduling tools, and intake workflow requirements.
+          </p>
+<div class="mt-auto pt-space-md border-t border-line text-faint text-small font-small">
+            Direct implementation • $500 flat investment
+          </div>
+</div>
+<!-- Horizon Discovery: real Cal.com embed (replaces the Stitch mock calendar and form) -->
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<iframe src="https://cal.com/macks-studios/horizon-discovery" title="Book your Horizon Discovery call" style="width:100%;height:720px;border:1px solid #30363D;border-radius:12px;background:#fff" loading="lazy"></iframe>
+<p class="text-small font-small text-faint">Calendar not loading? <a class="text-sage hover:text-sage-light underline" href="https://cal.com/macks-studios/horizon-discovery" target="_blank" rel="noopener">Open the booking page directly</a>.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Transparent Pricing & Payment Section -->
+<section class="w-full border-t border-line py-16 bg-surface/30" id="pricing">
+<div class="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs max-w-xl">
+<span class="font-kicker text-kicker text-sage uppercase">Predictable Investment</span>
+<h2 class="font-headline-lg text-headline-lg tracking-tight text-paper">Transparent pricing &amp; payment</h2>
+<p class="font-body text-body text-muted">Fixed scope, straightforward settlement, and zero ongoing agency markups.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+<!-- Main Offering Card -->
+<div class="lg:col-span-7 p-space-lg lg:p-space-xl rounded-[12px] bg-surface border border-line flex flex-col justify-between shadow-sm">
+<div class="flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-space-sm border-b border-line pb-space-md">
+<div>
+<h3 class="font-headline-md text-headline-md text-paper">Booking Setup</h3>
+<p class="text-small font-small text-muted mt-1">For service businesses needing an immediate, reliable calendar and booking flow without buying a full overhaul. Note: This setup is not part of Studio Foundation.</p>
+</div>
+<div class="text-left sm:text-right shrink-0">
+<div class="font-display text-display text-paper leading-none">$500</div>
+<div class="text-small font-small text-faint mt-1">Flat one-time</div>
+</div>
+</div>
+<div class="flex flex-col gap-space-md">
+<span class="text-kicker font-kicker text-faint uppercase">Everything Included</span>
+<ul class="flex flex-col gap-space-sm text-small font-small text-paper">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-sage text-[18px] shrink-0 mt-0.5">check</span>
+<span class="">Complete Cal.com configuration and custom branded booking interface</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-sage text-[18px] shrink-0 mt-0.5">check</span>
+<span class="">15-minute Horizon Discovery diagnostic call with our systems operator</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-sage text-[18px] shrink-0 mt-0.5">check</span>
+<span class="">Automated confirmation, calendar sync, and SMS/email reminder workflows</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-sage text-[18px] shrink-0 mt-0.5">check</span>
+<span class="">Custom intake questionnaire fields mapped to your service taxonomy</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-sage text-[18px] shrink-0 mt-0.5">check</span>
+<span class="">Payment guidance (Zelle preferred, bank transfer, or card)</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-sage text-[18px] shrink-0 mt-0.5">check</span>
+<span class="">Delivered and verified in exactly 7 days</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-lg mt-space-lg border-t border-line flex flex-col sm:flex-row items-center gap-space-md">
+<a class="w-full sm:w-auto inline-flex items-center justify-center h-[52px] px-8 rounded-lg bg-sage hover:bg-sage-light text-ink font-body text-body font-medium transition-colors select-none" href="#discovery-picker">
+              Book a call
+            </a>
+<span class="text-small font-small text-muted text-center sm:text-left">One-week turnaround from diagnostic call.</span>
+</div>
+</div>
+<!-- Payment Terms & Operational Discipline Card -->
+<div class="lg:col-span-5 p-space-lg lg:p-space-xl rounded-[12px] bg-surface border border-line flex flex-col justify-between">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center gap-3 pb-space-sm border-b border-line">
+<span class="material-symbols-outlined text-sage text-[22px]">account_balance_wallet</span>
+<span class="font-headline-md text-headline-md text-paper">Payment Terms</span>
+</div>
+<div class="p-space-md rounded-lg bg-ink border border-line flex flex-col gap-space-xs"><div class="flex items-center justify-between">
+<span class="text-small font-small font-medium text-paper">Zelle Preferred</span>
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-sage-wash text-sage">Zero Fee</span>
+</div>
+<div role="button" tabindex="0" onclick="navigator.clipboard.writeText('macksstudios'); const badge=this.querySelector('.copy-feedback'); const orig=badge.innerHTML; badge.innerHTML='&lt;span class=\'material-symbols-outlined text-[14px]\'&gt;check&lt;/span&gt;&lt;span&gt;Copied&lt;/span&gt;'; badge.classList.add('text-sage'); setTimeout(()=&gt;{ badge.innerHTML=orig; badge.classList.remove('text-sage'); }, 2000);" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}" class="w-full flex items-center justify-between p-2.5 rounded-lg border border-line bg-surface hover:border-sage transition-colors cursor-pointer select-none group" title="Click to copy recipient tag"><div class="flex items-center gap-2"><span class="text-[11px] font-kicker uppercase text-faint tracking-[0.12em]">RECIPIENT TAG:</span><span class="font-mono font-medium text-sage text-small font-small">macksstudios</span></div><div class="copy-feedback inline-flex items-center gap-1 text-small font-small text-muted group-hover:text-paper transition-colors"><span class="material-symbols-outlined text-[16px]">content_copy</span><span class="text-[12px] font-medium">Copy</span></div></div>
+<p class="text-small font-small text-muted">
+Direct settlement with zero processor fees, instantaneous booking verification, and clean bookkeeping.
+</p></div>
+<div class="flex flex-col gap-space-sm text-small font-small text-muted leading-relaxed"><p class="">Payment terms: Zelle preferred (send to recipient handle <span class="text-paper font-medium">macksstudios</span>). No hidden platform markups. Invoice issued upon scope confirmation.</p>
+<p class="">Also compatible with standard ACH business bank transfers or corporate debit/credit cards where necessary.</p></div>
+<div class="pt-space-sm border-t border-line flex flex-col gap-space-xs">
+<span class="text-kicker font-kicker text-faint uppercase">Upgrade Credit</span>
+<p class="text-small font-small text-muted">
+                Your entire $500 investment carries forward 100% as a direct credit if you subsequently adopt the full Studio Foundation suite.
+              </p>
+</div>
+</div>
+<div class="mt-space-md text-faint text-[13px]">
+            Formal invoice issued under standard business agreements.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Studio Foundation & The 7 Systems Context -->
+<section class="w-full border-t border-line py-16" id="seven-systems">
+<div class="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin flex flex-col gap-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<div class="lg:col-span-7 flex flex-col gap-space-xs">
+<span class="font-kicker text-kicker text-sage uppercase">System Expansion</span>
+<h2 class="font-headline-lg text-headline-lg tracking-tight text-paper">Need more than booking? Studio Foundation.</h2>
+<p class="font-body text-body text-muted max-w-xl mt-space-xs">Booking Setup is a focused entry point and is not part of Studio Foundation. For full business infrastructure, Studio Foundation is our $5,000 comprehensive system. It equips every studio with seven foundational systems, with modular subsystems attachable as you expand, plus ongoing $300/month system care and maintenance.</p>
+</div>
+<div class="lg:col-span-5 flex lg:justify-end items-center">
+<a class="inline-flex items-center justify-center h-[52px] px-6 rounded-lg bg-transparent hover:bg-surface text-paper border border-line hover:border-sage transition-colors select-none font-body text-body font-medium" href="/foundation/">
+            Learn about Studio Foundation
+          </a>
+</div>
+</div>
+<!-- Seven Systems Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- System 1 -->
+<div class="p-space-md rounded-[12px] bg-surface border border-line flex flex-col gap-space-xs">
+<span class="text-kicker font-kicker text-sage">01</span>
+<h4 class="font-headline-md text-headline-md text-paper">Command Dashboard</h4>
+<p class="text-small font-small text-muted">Business Intelligence &amp; Dashboard Overview</p>
+</div>
+<!-- System 2 -->
+<div class="p-space-md rounded-[12px] bg-surface border border-line flex flex-col gap-space-xs">
+<span class="text-kicker font-kicker text-sage">02</span>
+<h4 class="font-headline-md text-headline-md text-paper">Project Delivery</h4>
+<p class="text-small font-small text-muted">Project Operations &amp; Delivery Tracking</p>
+</div>
+<!-- System 3 -->
+<div class="p-space-md rounded-[12px] bg-surface border border-line flex flex-col gap-space-xs">
+<span class="text-kicker font-kicker text-sage">03</span>
+<h4 class="font-headline-md text-headline-md text-paper">Document Vault</h4>
+<p class="text-small font-small text-muted">Document &amp; Contract Management</p>
+</div>
+<!-- System 4 -->
+<div class="p-space-md rounded-[12px] bg-surface border border-line flex flex-col gap-space-xs">
+<span class="text-kicker font-kicker text-sage">04</span>
+<h4 class="font-headline-md text-headline-md text-paper">Communication Hub</h4>
+<p class="text-small font-small text-muted">Communication &amp; Client Coordination</p>
+</div>
+<!-- System 5 -->
+<div class="p-space-md rounded-[12px] bg-surface border border-line flex flex-col gap-space-xs">
+<span class="text-kicker font-kicker text-sage">05</span>
+<h4 class="font-headline-md text-headline-md text-paper">Billing and Invoices</h4>
+<p class="text-small font-small text-muted">Financial and Billing Management</p>
+</div>
+<!-- System 6 -->
+<div class="p-space-md rounded-[12px] bg-surface border border-line flex flex-col gap-space-xs">
+<span class="text-kicker font-kicker text-sage">06</span>
+<h4 class="font-headline-md text-headline-md text-paper">Client Accounts</h4>
+<p class="text-small font-small text-muted">Client Relationship Management</p>
+</div>
+<!-- System 7 -->
+<div class="p-space-md rounded-[12px] bg-surface border border-line flex flex-col gap-space-xs">
+<span class="text-kicker font-kicker text-sage">07</span>
+<h4 class="font-headline-md text-headline-md text-paper">Content Management</h4>
+<p class="text-small font-small text-muted">Content Management &amp; Public Assets</p>
+</div>
+<!-- Expansion Note Card -->
+<div class="p-space-md rounded-[12px] bg-sage-wash/40 border border-line flex flex-col justify-between">
+<span class="text-kicker font-kicker text-sage">SYSTEM ARCHITECTURE</span>
+<p class="text-small font-small text-paper font-medium">Seven integrated pillars engineered for predictable operation.</p>
+<span class="text-[12px] font-small text-faint">$5,000 baseline installation</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Operator FAQ & Assurance -->
+<section class="w-full border-t border-line py-16 bg-surface/20">
+<div class="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs max-w-xl">
+<span class="font-kicker text-kicker text-sage uppercase">Operational Clarifications</span>
+<h2 class="font-headline-lg text-headline-lg tracking-tight text-paper">Questions and direct answers</h2>
+<p class="font-body text-body text-muted">Plain facts on process, payment methods, and scope boundaries.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- FAQ 1 -->
+<div class="p-space-lg rounded-[12px] bg-surface border border-line flex flex-col gap-space-sm">
+<h3 class="font-headline-md text-headline-md text-paper">What happens after I book the Horizon Discovery call?</h3>
+<p class="font-small text-small text-muted leading-relaxed">
+            We meet for 15 minutes to inspect your intake requirements, appointment rules, and calendar setup. You receive a precise configuration document within 24 hours. Once confirmed, setup begins immediately.
+          </p>
+</div>
+<!-- FAQ 2 -->
+<div class="p-space-lg rounded-[12px] bg-surface border border-line flex flex-col gap-space-sm">
+<h3 class="font-headline-md text-headline-md text-paper">Why do you prefer Zelle for payments?</h3>
+<p class="font-small text-small text-muted leading-relaxed">
+            Zero processor processing fees, instantaneous settlement, and simple bookkeeping. It keeps system setup costs entirely predictable for both parties without 3.5% processor drag.
+          </p>
+</div>
+<!-- FAQ 3 -->
+<div class="p-space-lg rounded-[12px] bg-surface border border-line flex flex-col gap-space-sm">
+<h3 class="font-headline-md text-headline-md text-paper">Can I upgrade to Studio Foundation later?</h3>
+<p class="font-small text-small text-muted leading-relaxed">
+            Yes. The $500 Booking Setup applies as credit toward your $5,000 Studio Foundation. Your scheduling engine integrates smoothly into the larger architecture when you are ready.
+          </p>
+</div>
+<!-- FAQ 4 -->
+<div class="p-space-lg rounded-[12px] bg-surface border border-line flex flex-col gap-space-sm">
+<h3 class="font-headline-md text-headline-md text-paper">What if my calendar is already tangled?</h3>
+<p class="font-small text-small text-muted leading-relaxed">
+            We audit and clean existing calendar links during the first 48 hours. We eliminate colliding schedules, clear defunct links, and align buffer times before connecting your new instance.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Final Call to Action Strip -->
+<section class="w-full border-t border-line py-16 bg-surface">
+<div class="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-space-xs max-w-lg">
+<h3 class="font-headline-lg text-headline-lg tracking-tight text-paper">Ready for seven-day deployment?</h3>
+<p class="font-body text-body text-muted">Schedule your 15-minute diagnostic. No pressure, no obligations, just quiet clarity.</p>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<a class="inline-flex items-center justify-center h-[52px] px-8 rounded-lg bg-sage hover:bg-sage-light text-ink font-body text-body font-medium transition-colors select-none" href="#discovery-picker">
+          Book a call
+        </a>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Mobile menu: the header tabs collapse into this menu on phone widths.
+  // The menu button sits where the account button sits on desktop.
+  const menuButton = document.getElementById('mobile-menu-button');
+  const menuPanel = document.getElementById('mobile-menu');
+  const menuIcon = document.getElementById('mobile-menu-icon');
+  function setMenu(open) {
+    menuPanel.classList.toggle('hidden', !open);
+    menuButton.setAttribute('aria-expanded', String(open));
+    menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Menu');
+    menuIcon.textContent = open ? 'close' : 'menu';
+  }
+  if (menuButton && menuPanel && menuIcon) {
+    let open = false;
+    menuButton.addEventListener('click', () => { open = !open; setMenu(open); });
+    menuPanel.querySelectorAll('.mobile-menu-link').forEach(link => {
+      link.addEventListener('click', () => { open = false; setMenu(false); });
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && open) { open = false; setMenu(false); menuButton.focus(); }
+    });
+    window.matchMedia('(min-width: 768px)').addEventListener('change', (e) => {
+      if (e.matches && open) { open = false; setMenu(false); }
+    });
+  }
+</script></main><footer class="w-full bg-surface border-t border-line mt-space-xl"><div class="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin py-space-xl flex flex-col md:flex-row md:items-center justify-between gap-space-lg"><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-space-sm"><img alt="Macks Studios Logo" class="h-8 w-auto object-contain select-none" src="/assets/brand/logo-mark.svg"><span class="font-headline-md text-headline-md text-paper select-none">Macks Studios</span></div><p class="font-small text-small text-muted max-w-md">Dependable digital systems for calm operators. Built without agency hype, engineered for predictable performance.</p><p class="font-small text-small text-faint">© 2026 Macks Studios. All rights reserved.</p></div><div class="flex flex-wrap items-center gap-space-lg text-small font-small"><a class="text-muted hover:text-paper transition-colors" data-path="studio-foundation" href="/foundation/">Studio Foundation</a><a class="text-muted hover:text-paper transition-colors" data-path="booking-setup" href="/booking-setup/">Booking Setup</a><a class="text-muted hover:text-paper transition-colors" data-path="pricing" href="/pricing/">Pricing</a><a class="text-faint hover:text-muted transition-colors" data-path="terms" href="/terms/">Terms</a><a class="text-faint hover:text-muted transition-colors" data-path="privacy" href="/privacy/">Privacy</a></div></div></footer>
+
+</body></html>
